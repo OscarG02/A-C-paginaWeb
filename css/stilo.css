@@ -1,0 +1,409 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background: #ff66000c;
+            background-image: url('../images/Imagen1.jpg');
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+        }
+        
+        .btn1 {
+            padding: 15px 30px;
+            background: linear-gradient(to top, rgb(255, 255, 255), rgba(238, 230, 230, 0.787));
+            border: 1px solid;
+            border: 10px;
+        }
+        
+        .btn1 a {
+            text-decoration: none;
+            color: #181717;
+        }
+        
+        .btn1:hover {
+            background: #ccc5c5;
+            cursor: pointer;
+        }
+        
+        nav {
+            padding: 15PX;
+            border-bottom: 1px solid black;
+            border-bottom-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            width: 80%;
+            margin: 0 auto;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.418), rgba(211, 84, 0, 5.1));
+        }
+        
+        nav ol {
+            display: flex;
+        }
+        
+        nav ol li {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            list-style: none;
+        }
+        
+        nav ol li a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px 30px;
+            color: black;
+        }
+        
+        nav ol li a:hover {
+            color: black;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border: 1px solid rgba(54, 53, 53, 0.226);
+            background: rgba(173, 147, 117, 0.486);
+            text-shadow: 5px 2px 5px rgb(0 0 0 / 40%);
+        }
+        
+        .footer {
+            background-color: #873600;
+        }
+        
+        .footer p {
+            color: white;
+            text-align: center;
+        }
+        
+        .marquesina {
+            width: 100%;
+            background: #00000027;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 10px;
+            font-size: 20px;
+            text-shadow: 5px 2px 5px rgb(0 0 0 / 40%);
+            word-spacing: 10px;
+            margin-right: 20%;
+        }
+        
+        .nombreE {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        
+        .section {
+            background: #ac866da6;
+        }
+        
+        .section-1 h1 {
+            text-align: center;
+        }
+        
+        .section-1 {
+            margin-top: 20px;
+            color: rgb(61, 55, 55);
+            margin-right: 20%;
+            margin-left: 20%;
+            font-size: 19px;
+        }
+        
+        .section-1 h3 {
+            margin-top: 20px;
+        }
+        
+        .figure {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .figure img {
+            margin-top: 30px;
+            width: 500px;
+            height: 600px;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+        
+        .figure img:hover {
+            opacity: 1;
+        }
+        
+        .container-2 {
+            display: flex;
+        }
+        
+        .mt-20 {
+            margin-top: 20px;
+        }
+        
+        .ml-270 {
+            margin-left: 270px;
+        }
+        
+        .ml-5 {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+        
+        .figure2 {
+            margin-top: 40px;
+        }
+        
+        .ppsol li {
+            margin-top: 20px;
+            list-style: square;
+        }
+        
+        .titleNm {
+            text-align: center;
+        }
+        
+        .nichom {
+            display: flex;
+        }
+        
+        .table1 {
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+        .table1 table {
+            width: 100%;
+            background-color: white;
+            border-collapse: collapse;
+            /* quita los bordes de la tabla*/
+        }
+        
+        .table1 td {
+            border: 1px solid rgb(180, 135, 98);
+            padding: 7px;
+        }
+        
+        .table1 tr:nth-child(even) {
+            background-color: #ccc5c5;
+        }
+        
+        .table1 th {
+            background-color: chocolate;
+            color: #181717;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        
+        .container-1 {
+            width: 90%;
+            margin-left: 3%;
+            background: #f2f2f2c4;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .container-1 h3 {
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .mision {
+            width: 50%;
+            margin-top: 30px;
+            text-align: justify;
+            background: #f2f2f2;
+            padding: 15px;
+            border: 3px solid brown;
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .vision {
+            margin-left: 50%;
+            margin-top: 30px;
+            text-align: justify;
+            background: #f2f2f2;
+            padding: 15px;
+            border: 3px solid brown;
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .obGene {
+            margin-left: 5%;
+            margin-top: 30px;
+            width: 87%;
+            text-align: justify;
+            background: #f2f2f2;
+            padding: 15px;
+            border: 3px solid brown;
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .obGene-esp {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 30px;
+            text-align: justify;
+            background: #f2f2f2;
+            padding: 25px;
+            border: 3px solid brown;
+            border-radius: 10px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        
+        .obGene-esp ol li {
+            list-style: disc;
+        }
+        
+        .conten-img {
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .img {
+            background: #f2f2f2;
+            margin-left: 2%;
+            height: 120px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .atachment {
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+            background-color: #f2f2f2;
+            background-image: url('../images/portafolio.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        .title1 {
+            display: inline-flex;
+            font-size: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 300px;
+            color: #fff;
+            margin-top: 50px;
+            filter: drop-shadow(-5px -5px 15px black);
+            box-shadow: 0 0 15px black;
+        }
+        
+        .pp-service {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 30px;
+            background-color: #f2f2f2d7;
+        }
+        
+        .flex1 {
+            display: flex;
+            margin-bottom: 30px;
+            justify-content: space-evenly;
+            margin-left: 120px;
+        }
+        
+        .section1 {
+            display: block;
+            padding: 20px;
+            width: 300px;
+            border: 1px solid;
+            border-radius: 20px;
+            box-shadow: 1px 0 15px black;
+            margin-left: 10px;
+        }
+        
+        .section1 ol li {
+            margin-top: 5px;
+            margin-left: 50px;
+            list-style: disc;
+        }
+        
+        .section1:hover {
+            transform: scale(1.01);
+            background-color: #ffffffd0;
+        }
+        
+        .line {
+            height: 2px;
+            width: 100%;
+            background-color: #000000;
+        }
+        
+        .section1 h1 {
+            text-align: center;
+        }
+        
+        .form-contec {
+            width: 60%;
+            margin: 10px auto;
+            padding: 25px;
+            border: 1px solid;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .form-contec fieldset {
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .form-contec form {
+            font-size: 18px;
+            padding: 25px;
+            text-align: left;
+            background-color: #d8d4d4c9;
+        }
+        
+        .form-contec form label {
+            padding: 0px 20px 0 10px;
+            width: 98%;
+            margin-left: 5px;
+        }
+        
+        .form-contec form input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .form-contec form input[type=number] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .form-contec button {
+            background-image: url(../images/texture1.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 20px;
+            width: 100%;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        
+        .form-contec button:hover {
+            transform: scale(1.01);
+        }
+        
+        .form-contec button a {
+            font-size: 20PX;
+            text-decoration: none;
+            color: #000000;
+        }
